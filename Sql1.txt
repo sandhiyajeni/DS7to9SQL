@@ -1,0 +1,159 @@
+SQL-Structured Query Language
+
+Mysql
+Oracle
+SQlite
+PostgreSQL
+
+mysql installer
+Xampp
+
+workbook----Databases
+Sheet---Tables
+
+Types of SQL Commands
+
+DDL-Data Definition Language
+	Create
+	Drop
+	Truncate
+	Rename
+	Alter
+
+DML-Data Manipuation Langugage
+	Insert
+	Update
+	delete
+
+DQL-Data Query Language
+	Select
+
+Create
+
+Step1:
+To view the database
+
+Show database
+
+Step2:
+Create a database
+
+Syntax:
+
+Create database databasename;
+
+Example:
+
+Create database DS7to9;
+
+Step3:
+
+To select the database you want to use
+
+syntax:
+
+use Databasename;
+
+Step4
+
+create a table
+
+Create table tablename(
+Columnname1 datatypes,
+Columnname2 datatypes,
+......);
+
+datatypes
+
+Number
+
+Integer-int
+Decimal-decimal/float
+Big Integer-Bigint
+
+String
+
+varchar(length)
+
+Date
+
+Time
+
+example:
+
+Create table Student(
+id int,
+name varchar(15),
+age int,
+ph_no bigint/ varchar(10),
+city  varchar(12)
+);
+
+step5:
+
+To view the table structure:
+
+desc tablename;
+
+start with desc-description
+ends with desc- descending
+
+
+25/6/2024
+
+step6:
+
+insert the data into the tables
+
+syntax
+
+insert into tablename values(value1,values2.....);
+
+step7:
+
+select * from tablename
+
+* === all columns
+
+step8:
+
+syntax
+
+update tablename set columnname=values where condition;
+
+step9
+
+delete a particular row
+
+syntax
+
+delete from tablename where condition;
+
+truncate
+
+it delete the entire data
+
+syntax
+
+truncate table tablename;
+
+drop 
+ 
+syntax;
+
+drop table tablename;
+
+drop database databasename;
+ 
+
+
+
+
+
+
+
+
+
+
+
+
